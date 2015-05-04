@@ -169,6 +169,7 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fff;
 }
 
+
 .navbar-default {
     border-color: transparent;
     background-color: #222;
@@ -177,6 +178,11 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: #fed136;
+}
+
+a.navbar-brand.page-scroll {
+  background-image: url(../img/banner-for-web-plugin.png);
+  background-size: cover;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -864,4 +870,9 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+  margin-left: -15px;
+  height: 80px;
 }
